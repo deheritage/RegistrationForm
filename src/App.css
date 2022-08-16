@@ -1,6 +1,8 @@
 .App {
-    text-align: center;
-    background-color: darkkhaki;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: thistle;
 }
 
 .label {
@@ -11,14 +13,14 @@
 }
 
 .input{
-    font-size: 15px;
-    padding: 5px;
-    margin: 2px;
+display: block;
+    padding: 15px;
+    margin: 10px 0px;
 }
 
 .btn {
     color: white;
-    background-color: tomato;
+    background-color: red;
     border-radius: 5px;
     font-size: 20px;
     display: block;
@@ -35,4 +37,8 @@
 color: red;
 height: 50px;
 padding: 2px;
+}
+
+.errorPwrd{
+    color: red;
 }
